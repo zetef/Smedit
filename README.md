@@ -4,6 +4,6 @@
 ### **_to-do list:_**
 - [x] create folder with **desired name**
 - [x] create as **many files as you want**
-- [x] create file in **previous / current / any other folder**
+- [x] create file in **previous / current / new folder**
 - [ ] create a file with **two extensions**
 - [ ] create folder **within a choosen folder**
