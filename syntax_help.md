@@ -5,17 +5,18 @@
 - [**name declaration**](https://github.com/zetef/Smedit/new/master#name-declaration)
 - [**extension declaration**](https://github.com/zetef/Smedit/new/master#extension-declaration)
 - [**new file command**](https://github.com/zetef/Smedit/new/master#new-file-command)
-- [**stop editing**](https://github.com/zetef/Smedit/new/master#stop-editing)
+- [**stop forever command**](https://github.com/zetef/Smedit/new/master#stop-forever-command)
 
 ## **_syntax rules_**
-  - the first two declarations in the editor will **_always_** be the [**name declaration**](https://github.com/zetef/Smedit/new/master#name-declaration) and **extension declaration**.
-  - [**stop editing**](https://github.com/zetef/Smedit/new/master#stop-editing) **_must be_** at the end of the file.
-  - [**new file command**](https://github.com/zetef/Smedit/new/master#new-file-command) and [**stop editing**](https://github.com/zetef/Smedit/new/master#stop-editing) **_must be_** on a separate line on their on.
+  - the first two declarations in the editor will **_always_** be the [**name declaration**](https://github.com/zetef/Smedit/new/master#name-declaration) and [**extension declaration**](https://github.com/zetef/Smedit/new/master#extension-declaration).
+  - [**stop forever command**](https://github.com/zetef/Smedit/new/master#stop-forever-command) **_must be_** at the end of the file.
+  - [**new file command**](https://github.com/zetef/Smedit/new/master#new-file-command) and [**stop forever command**](https://github.com/zetef/Smedit/new/master#stop-forever-command) **_must be_** on a separate line on their on.
+  - the **_content of the file_** is everything between the [**extension declaration**](https://github.com/zetef/Smedit/new/master#extension-declaration) and [**new file command**](https://github.com/zetef/Smedit/new/master#new-file-command) or [**stop forever command**](https://github.com/zetef/Smedit/new/master#stop-forever-command)
   - ```
     file_name .txt content
     $stopf
     ```
-    is legal and will make a text file named `file_name` with content written in.
+    is legal and will make a text file named `file_name` with `content` written in.
     
 ## **_name declaration_**
   **example:** `file_name`
@@ -25,14 +26,14 @@
 ## **_extension declaration_**
   **example:** `.extName`
   
-  an **extension declaration** is **_always_** after the [**name declaration**](https://github.com/zetef/Smedit/new/master#name-declaration) and can be any of the [**supported extensions**](https://en.wikipedia.org/wiki/List_of_file_formats#Archive_and_compressed). it **_must not be_** like this `.ext Name` because Name will be interpreted as the **content of the file**.
+  an **extension declaration** is **_always_** after the [**name declaration**](https://github.com/zetef/Smedit/new/master#name-declaration) and can be any of the [**supported extensions**](https://en.wikipedia.org/wiki/List_of_file_formats#Archive_and_compressed). it **_shouldn't be_** like this `.ext Name` because Name will be interpreted as the **content of the file**.
   
 ## **_new file command_**
   **syntax:** `$stop`
   
   used when you finish writing the contents of a file. ~~**_please don't write this command first_**~~.
   
-## **_stop editing_**
+## **_stop forever command_**
   **syntax:** `$stopf` **(f from forever)**
   
   used when you finish your buisness with the editor. ~~**_again, don't write this command first. have mercy on me_**~~
