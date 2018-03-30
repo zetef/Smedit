@@ -5,13 +5,13 @@
 - [**name declaration**](https://github.com/zetef/Smedit/new/master#name-declaration)
 - [**extension declaration**](https://github.com/zetef/Smedit/new/master#extension-declaration)
 - [**new file command**](https://github.com/zetef/Smedit/new/master#new-file-command)
-- [**stop forever command**](https://github.com/zetef/Smedit/new/master#stop-forever-command)
+- [**stop forever command**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#stop-forever-command)
 
 ## **_syntax rules_**
   - the first two declarations in the editor will **_always_** be the [**name declaration**](https://github.com/zetef/Smedit/new/master#name-declaration) and [**extension declaration**](https://github.com/zetef/Smedit/new/master#extension-declaration).
-  - [**stop forever command**](https://github.com/zetef/Smedit/new/master#stop-forever-command) **_must be_** at the end of the file.
-  - [**new file command**](https://github.com/zetef/Smedit/new/master#new-file-command) and [**stop forever command**](https://github.com/zetef/Smedit/new/master#stop-forever-command) **_must be_** on a separate line on their on.
-  - the **_content of the file_** is everything between the [**extension declaration**](https://github.com/zetef/Smedit/new/master#extension-declaration) and [**new file command**](https://github.com/zetef/Smedit/new/master#new-file-command) or [**stop forever command**](https://github.com/zetef/Smedit/new/master#stop-forever-command)
+  - [**stop forever command**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#stop-forever-command) **_must be_** at the end of the file.
+  - [**new file command**](https://github.com/zetef/Smedit/new/master#new-file-command) and [**stop forever command**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#stop-forever-command) **_must be_** on a separate line on their on.
+  - the **_content of the file_** is everything between the [**extension declaration**](https://github.com/zetef/Smedit/new/master#extension-declaration) and [**new file command**](https://github.com/zetef/Smedit/new/master#new-file-command) or [**stop forever command**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#stop-forever-command)
   - ```
     file_name .txt content
     $stopf
