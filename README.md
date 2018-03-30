@@ -1,3 +1,2 @@
-# Smedit
-Simple editor. v0.07
-This version can handle multiple accounts each one can acces the editor
+# Smedit v0.1
+Simple editor
