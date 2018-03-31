@@ -43,7 +43,7 @@
 ## **_comments_**
   **syntax:** `# this line will be ignored`
   
-  used to make your code easier to understand.
+  used to make your code easier to understand. it won't be shown in the output file.
   
  ## **_examples_**
   - **make a single file:**
