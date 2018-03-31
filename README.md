@@ -10,3 +10,11 @@
 - [ ] create a file with **two extensions**
 - [ ] create folder **within a choosen folder**
 - [ ] **copy** a selected file **while the editor is empty**
+
+### **_showing off how to create a file you want_**
+
+# **_step 1:_**
+![example](/assets/example.png)
+
+# **_step 2:_**
+![example0](/assets/example0.png)
