@@ -1,13 +1,15 @@
 # editor syntax
 
-### there are **_only_** **4 editor-specific commands** in smedit.
+### there are **_only_** **5 editor-specific commands** in smedit.
 ### they are the following:
 - [**name declaration**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#name-declaration)
 - [**extension declaration**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#extension-declaration)
 - [**new file command**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#new-file-command)
 - [**stop forever command**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#stop-forever-command)
+- [**comments**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#comments)
 
 ## **_syntax rules_**
+  - [**comments**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#comments) should be on their own line.
   - the first two declarations in the editor will **_always_** be the [**name declaration**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#name-declaration) and [**extension declaration**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#extension-declaration).
   - [**stop forever command**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#stop-forever-command) **_must be_** at the end of the file.
   - [**new file command**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#new-file-command) and [**stop forever command**](https://github.com/zetef/Smedit/blob/master/syntax_help.md#stop-forever-command) **_must be_** on a separate line on their on.
@@ -38,6 +40,10 @@
   
   used when you finish your buisness with the editor. ~~**_again, don't write this command first. have mercy on me_**~~
   
+## **_comments_**
+  **syntax:** `# this line will be ignored`
+  
+  used to make your code easier to understand.
   
  ## **_examples_**
   - **make a single file:**
