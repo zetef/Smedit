@@ -7,3 +7,5 @@
 - [x] create file in **previous / current / new folder**
 - [ ] create a file with **two extensions**
 - [ ] create folder **within a choosen folder**
+- [ ] **copy** a selected file **while the editor is empty**
+- [ ] add **comments** in the editor	
