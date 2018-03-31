@@ -76,11 +76,11 @@ int main()
 
     cout << endl << "chose directory" << endl;
 
-    //restore normal color
-    SetConsoleTextAttribute(hstdout, csbi.wAttributes);
-
     //get folder names with spaces
     getline(cin, name_dir);
+	
+    //restore normal color
+    SetConsoleTextAttribute(hstdout, csbi.wAttributes);
 
     //make folder with name_dir
     mkdir(name_dir.c_str());
