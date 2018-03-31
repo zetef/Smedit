@@ -7,11 +7,6 @@
 
 using namespace std;
 
-const WORD colors[] =
-		{
-		0x1A, 0x2B, 0x3C, 0x4D, 0x5E, 0x6F,
-		0xA1, 0xB2, 0xC3, 0xD4, 0xE5, 0xF6
-		};
 int i(1);
 DIR *dir;
 dirent *pdir;
@@ -28,7 +23,7 @@ int edit(){
         if(n == "$stop")
             edit();
         //stop editing command
-        if(n == "$stopf")
+        if(n == "$stopf") 
             return 0;
         //read more characters
         while(n.length() == 0)
@@ -54,7 +49,7 @@ int main()
 	CONSOLE_SCREEN_BUFFER_INFO csbi;
 	GetConsoleScreenBufferInfo( hstdout, &csbi );
 	//setting the actual color
-	auto randColor = rand() % 10 + 2; //i did 10 + 2 so I don't get the first case where the text and bg in black
+	auto randColor = rand() % 10 + 2; //i did 10 + 2 so I don't get the first case where the text and bg are in black
     SetConsoleTextAttribute(hstdout, randColor);
 
     cout << "where to store the files from the editor" << endl << endl;
