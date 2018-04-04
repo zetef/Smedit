@@ -15,10 +15,10 @@
   **example:** 
 ```
 >$od
-location: C:\my location
+location: another folder
 ```
 when using this **command** you'll be be asked to **input** the location of the **desired** directory. it will also **open** the file explorer **within** the folder you chose.
-you can input as the location '.' standing for **_current directory_**, '..' standing for **_parent or previous directory_** or the full path.
+you can input as the location '.' standing for **_current directory_**, '..' standing for **_parent or previous directory_** or a directory name within the current folder you are in.
 
 ## **_$cd_ - _create directory_**
   **example:**
