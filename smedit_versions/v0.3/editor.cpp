@@ -157,7 +157,7 @@ int main()
         //seting color manually                                             $sc
         if(name_dir[1] == 's' && name_dir[2] == 'c'){
             string color;
-            cout << "green\nblue\nred\npink\nyellow\nwhite\n";
+            cout << "green\nblue\nred\npink\nyellow\nwhite\n>";
             getline(cin, color);
             if(color == "green"){
                 SetConsoleTextAttribute(hstdout, 10);
