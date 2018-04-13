@@ -11,6 +11,9 @@
  - [**$cls**](https://github.com/zetef/Smedit/new/master#cls)
  - [**$ex**](https://github.com/zetef/Smedit/new/master#ex)
  
+### [update 0.4](/smedit_versions/v0.4) introduced:
+ - $st
+ - $rt
 ## **_$od_ - _open directory_**
   **example:** 
 ```
@@ -79,6 +82,20 @@ when using this **command** the color of the text **will start** to be randomize
  
 when using this **command** it will clear the screen for **_one session_**, so the next time using **another** command the **files** and **directories** will show up.
 
+## **_$st_**
+  **example:**
+  ```
+  >$st
+  name of title: my title
+  ```
+when using this **command** it will ask you the name of the title **of the program.**
+
+## **_$rt_**
+ **example:**
+ ```
+ >$rt
+ ```
+when using this **command** the title of the program will **reset** its title, being the path of the **current folder.**
 ## **_$ex_**
   **example:**
   ```
