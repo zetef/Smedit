@@ -12,8 +12,8 @@
  - [**$ex**](https://github.com/zetef/Smedit/new/master#ex)
  
 ### [update 0.4](/smedit_versions/v0.4) introduced:
- - $st
- - $rt
+ - [**$st**](https://github.com/zetef/Smedit/blob/master/commands_help.md#st)
+ - [**$rt**](https://github.com/zetef/Smedit/blob/master/commands_help.md#rt)
 ## **_$od_ - _open directory_**
   **example:** 
 ```
