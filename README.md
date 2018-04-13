@@ -7,8 +7,11 @@
 - [x] create file in **previous / current / new folder**
 - [x] add **comments** in the editor
 - [x] add **colors** to the console
+- [x] create folder **within a choosen folder**
+- [x] delete **a specific** _folder_ **or** _file_
+- [x] open a **desired** folder
+- [x] nicer **UI**
 - [ ] create a file with **two extensions**
-- [ ] create folder **within a choosen folder**
 - [ ] **copy** a selected file **while the editor is empty**
 
 ### **_showing off how to create a file you want_**
