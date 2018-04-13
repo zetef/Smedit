@@ -431,7 +431,7 @@ int main()
 
 //functions that need main()
 void unknownCommand(){
-    cout << "unknown command\navailable commands are:\n$od - open directory\n$cd - create directory\n$cls - clear screen\n$cl - current location\n$sc - set color\n$rc - reset color\n$ex - exit\n$dd - delete directory\n";
+    cout << "unknown command\navailable commands are:\n$od - open directory\n$cd - create directory\n$cls - clear screen\n$cl - current location\n$sc - set color\n$rc - reset color\n$ex - exit\n$dd - delete directory\n$st - set title\n$rt - reset title";
     system("pause");
     system("cls");
     main();
@@ -468,3 +468,4 @@ int edit(){
     }
     editor.close();
 }
+
