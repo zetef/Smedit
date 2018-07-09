@@ -58,5 +58,5 @@ int main()
 
     //make folder with name_dir
     mkdir(name_dir.c_str());
-    edit();
+    return edit();
 }
